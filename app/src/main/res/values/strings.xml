@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">converter</string>
+
+    <string-array name="mesuares">
+        <item>CURRENCY</item>
+        <item>WEIGHT</item>
+        <item>DISTANCE</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>EUR</item>
+        <item>USD</item>
+        <item>RUS</item>
+    </string-array>
+
+    <string-array name="currencies2">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>RUS</item>
+    </string-array>
+
+    <string-array name="Distance">
+        <item>INCH</item>
+        <item>FOOT</item>
+        <item>YARD</item>
+        <item>CM</item>
+    </string-array>
+
+    <string-array name="Distance2">
+        <item>FOOT</item>
+        <item>YARD</item>
+        <item>CM</item>
+        <item>INCH</item>
+    </string-array>
+
+    <string-array name="Weight">
+        <item>OZ</item>
+        <item>LB</item>
+        <item>G</item>
+    </string-array>
+
+    <string-array name="Weight2">
+        <item>LB</item>
+        <item>G</item>
+        <item>OZ</item>
+    </string-array>
+
+    <string name="USDUSD">1</string>
+    <string name="USDEUR">0.8475</string>
+    <string name="USDRUS">76.2</string>
+    <string name="EURUSD">1.17</string>
+    <string name="EURRUS">89.5</string>
+    <string name="EUREUR">1</string>
+    <string name="RUSEUR">0.011</string>
+    <string name="RUSUSD">0.013</string>
+    <string name="RUSRUS">1</string>
+
+    <string name="INCHINCH">1</string>
+    <string name="INCHFOOT">0.083</string>
+    <string name="INCHYARD">0.028</string>
+    <string name="INCHCM">2.54</string>
+    <string name="FOOTINCH">12</string>
+    <string name="FOOTFOOT">1</string>
+    <string name="FOOTYARD">0.33</string>
+    <string name="FOOTCM">30.48</string>
+    <string name="YARDINCH">36</string>
+    <string name="YARDFOOT">3</string>
+    <string name="YARDYARD">1</string>
+    <string name="YARDCM">91.44</string>
+    <string name="CMINCH">0.39</string>
+    <string name="CMFOOT">0.033</string>
+    <string name="CMYARD">0.011</string>
+    <string name="CMCM">1</string>
+
+    <string name="OZOZ">1</string>
+    <string name="OZLB">0.063</string>
+    <string name="OZG">28.35</string>
+    <string name="LBOZ">16</string>
+    <string name="LBG">453.59</string>
+    <string name="LBLB">1</string>
+    <string name="GLB">0.035</string>
+    <string name="GOZ">0.0022</string>
+    <string name="GG">1</string>
+    <string name="distance">Distance</string>
+
+</resources>
