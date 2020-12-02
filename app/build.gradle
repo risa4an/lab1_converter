@@ -21,10 +21,24 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        freeBuild {
+            applicationIdSuffix 'com.example.myapplication.free'
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+    flavorDimensions 'price'
+    productFlavors {
+        free {
+            dimension 'price'
+            applicationId 'com.example.myapplication.free'
+        }
+        paid {
+            dimension 'price'
+            applicationId 'com.example.myapplication.paid'
+        }
     }
 }
 
